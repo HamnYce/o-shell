@@ -15,10 +15,12 @@ void osh_init() {
   osh_loop();
 }
 
+void osh_readline() {
+
+}
+
 int main(int argc, char* argv[]) {
   //osh_init();
-  FILE * fd = 0;
-  char * str = malloc(100);
 
   int size = read(STDIN, str, 10);
   str[size] = '\0';
