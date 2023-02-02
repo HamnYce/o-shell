@@ -1,1 +1,2 @@
 # CREATE README
+compile osh
