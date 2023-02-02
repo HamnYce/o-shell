@@ -2,7 +2,7 @@ all: compile run
 
 
 compile:
-	gcc -o osh osh.c
+	gcc -o build/osh osh.c
 
 run:
-	./osh
+	build/osh
